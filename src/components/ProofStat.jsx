@@ -15,18 +15,18 @@ const ProofStat = () => {
         <div className="s2-tag-wrap"><div className="s2-tag">That is what the audit finds. Before you spend a dollar.</div></div>
 
         <div className="s2-logo-grid">
-          <img src="/01_FORM.png" alt="Form" />
-          <img src="/02_FLUSNOOZ.png" alt="Flusnooz" />
-          <img src="/03_MAESTRO.png" alt="Maestro" />
-          <img src="/04_SOLEGRIPZ.png" alt="Solegripz" />
-          <img src="/05_THIMTEC.png" alt="Thimtec" />
-          <img src="/06_BEAR_BRUSH.png" alt="Bear Brush" />
-          <img src="/07_Luhxe.png" alt="Luhxe" />
-          <img src="/08_Cardiology_Coffee.png" alt="Cardiology Coffee" />
-          <img src="/09_New_Rustic_Co.png" alt="My Rustic Roots" />
-          <img src="/10_Strawberry_Co.png" alt="Strawberry & Co" />
-          <img src="/11_BRUSHEE.png" alt="Brushee" />
-          <img src="/12_eclipseptics.png" alt="Eclipse Optics" />
+          <img src="/01_FORM.png" alt="Form" loading="lazy" />
+          <img src="/02_FLUSNOOZ.png" alt="Flusnooz" loading="lazy" />
+          <img src="/03_MAESTRO.png" alt="Maestro" loading="lazy" />
+          <img src="/04_SOLEGRIPZ.png" alt="Solegripz" loading="lazy" />
+          <img src="/05_THIMTEC.png" alt="Thimtec" loading="lazy" />
+          <img src="/06_BEAR_BRUSH.png" alt="Bear Brush" loading="lazy" />
+          <img src="/07_Luhxe.png" alt="Luhxe" loading="lazy" />
+          <img src="/08_Cardiology_Coffee.png" alt="Cardiology Coffee" loading="lazy" />
+          <img src="/09_New_Rustic_Co.png" alt="My Rustic Roots" loading="lazy" />
+          <img src="/10_Strawberry_Co.png" alt="Strawberry & Co" loading="lazy" />
+          <img src="/11_BRUSHEE.png" alt="Brushee" loading="lazy" />
+          <img src="/12_eclipseptics.png" alt="Eclipse Optics" loading="lazy" />
         </div>
         <div className="s2-logo-dots">
           <span className="dot"></span>
