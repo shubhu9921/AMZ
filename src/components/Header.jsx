@@ -14,12 +14,12 @@ const Header = () => {
   return (
     <header className={`hdr ${scrolled ? 'scrolled' : ''}`} id="site-header">
       <div className="hdr-inner">
-          <a href="#" className="hdr-brand">
+          <a href="/" className="hdr-brand">
             <img src="/logo.png" alt="AMZ Expand" style={{ height: '48px', width: 'auto', objectFit: 'contain' }} />
           </a>
         <nav className="hdr-nav">
-          <a href="#" className="hdr-link">How It Works</a>
-          <a href="#" className="hdr-cta">Book Your Free Audit</a>
+          <a href="#how-it-works" className="hdr-link">How It Works</a>
+          <a href="#audit" className="hdr-cta">Book Your Free Audit</a>
         </nav>
       </div>
     </header>

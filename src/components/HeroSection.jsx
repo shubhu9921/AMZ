@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="s1">
       <div className="s1-inner">
         <h1 className="s1-headline">
-          Most Accounts We Audit Are Losing
+          Most Accounts We Audit Are Losing{' '}
           <span className="money">$8,000 to $50,000</span> Every Month To Three Fixable Problems.
         </h1>
 
@@ -35,9 +35,9 @@ const HeroSection = () => {
               <div className="play-anchor" style={{ zIndex: 10 }}>
                 <div className="play-pulse" style={{ width: '64px', height: '64px' }} aria-hidden="true"></div>
                 <div className="play-pulse" style={{ width: '64px', height: '64px', animationDelay: '-1.1s' }} aria-hidden="true"></div>
-                <div className="s1-play-btn" role="button" tabIndex="0" aria-label="Play video: Watch the audit breakdown">
+                <button className="s1-play-btn" aria-label="Play video: Watch the audit breakdown">
                   <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" /></svg>
-                </div>
+                </button>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ const HeroSection = () => {
           <span className="s1-slots-dot"></span> 2 Audit Slots Left For This Week
         </div>
 
-        <a href="#" className="s1-cta">
+        <a href="#audit" className="s1-cta">
           Book Your Free Amazon Audit
           <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
         </a>

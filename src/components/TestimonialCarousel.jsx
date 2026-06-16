@@ -27,7 +27,7 @@ const TestimonialCarousel = () => {
         <div className="s5-carousel">
           <div className="s5-cards">
             {testimonials.map((t, i) => (
-              <div key={i} className="s5-card">
+              <div key={t.name} className="s5-card">
                 <div className="chat-name left" style={{ fontSize: '11px', fontWeight: 700, color: 'rgba(0,0,0,0.4)', marginBottom: '8px' }}>{t.name}</div>
                 <div className="chat-bubble left">{t.leftText}</div>
                 <div className="chat-name right">AMZ EXPAND TEAM</div>

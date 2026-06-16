@@ -7,7 +7,7 @@ const Guarantee = () => {
         <div className="s6-numeral-col">
           <div className="s6-big-num">90</div>
           <div className="s6-num-label">Day Guarantee</div>
-          <a href="#" className="s1-cta s6-cta desktop-cta">Book Free Audit</a>
+          <a href="#audit" className="s1-cta s6-cta desktop-cta">Book Free Audit</a>
         </div>
         <div className="s6-content">
           <h2 className="s6-header">WE DO NOT WIN<br/>UNLESS YOU DO</h2>
@@ -17,7 +17,7 @@ const Guarantee = () => {
           </div>
         </div>
         <div className="s6-mobile-cta-wrap">
-          <a href="#" className="s1-cta s6-cta mobile-cta">Book Free Audit</a>
+          <a href="#audit" className="s1-cta s6-cta mobile-cta">Book Free Audit</a>
         </div>
       </div>
     </section>

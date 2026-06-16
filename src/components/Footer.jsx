@@ -12,8 +12,8 @@ const Footer = () => {
             <div className="ftr-closing">Built by Amazon sellers. Run for Amazon sellers.</div>
           </div>
           <div className="ftr-links">
-            <a href="#" className="ftr-link">Privacy Policy</a>
-            <a href="#" className="ftr-link">Terms of Service</a>
+            <a href="/privacy" className="ftr-link">Privacy Policy</a>
+            <a href="/terms" className="ftr-link">Terms of Service</a>
           </div>
         </div>
         <div className="ftr-copyright">

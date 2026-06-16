@@ -54,7 +54,7 @@ const FaqAccordion = () => {
         </div>
         
         <div className="s7-footer">
-           <a href="#" className="s1-cta">
+           <a href="#audit" className="s1-cta">
               Book Your Free Amazon Audit 
               <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
            </a>

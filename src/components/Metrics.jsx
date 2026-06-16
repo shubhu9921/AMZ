@@ -32,7 +32,7 @@ const Metrics = () => {
             <p className="s8-p">We take three new accounts per month. Not as a tactic — because that is the number we can take on without quality slipping for anyone already inside.</p>
          </div>
 
-         <a href="#" className="s1-cta s8-cta">
+         <a href="#audit" className="s1-cta s8-cta">
            Book Your Free Amazon Audit 
            <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
          </a>
