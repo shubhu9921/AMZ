@@ -81,13 +81,13 @@ body {
   top: 0;
   z-index: 100;
   padding: 0 var(--gutter);
-  background: rgba(26,30,39, 1);
+  background: #0D1119;
   border-bottom: 1px solid rgba(255,255,255,0.05);
   transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .hdr.scrolled {
-  background: rgba(26,30,39, 0.97);
+  background: rgba(13,17,25, 0.97);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   box-shadow: var(--shadow-sm);
@@ -147,7 +147,7 @@ body {
 
 /* ── SECTION 1 — HERO ────────────────────────────────────── */
 .s1 {
-  background: linear-gradient(150deg, #1A1E27 0%, #15181F 100%);
+  background: linear-gradient(150deg, #0D1119 0%, #15181F 100%);
   padding: 80px var(--gutter) 100px;
   color: #fff;
   text-align: center;
@@ -185,6 +185,27 @@ body {
   width: 100%;
   position: relative;
   margin-bottom: 40px;
+}
+
+.s1-vsl-arrow {
+  position: absolute;
+  top: -60px;
+  right: -80px;
+  transform: rotate(0deg);
+  display: flex;
+  flex-direction: column;
+}
+
+.s1-vsl-arrow-text {
+  transform: rotate(10deg);
+  margin-bottom: 4px;
+  color: #CBE82C;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.s1-vsl-arrow svg {
+  transform: rotate(-20deg);
 }
 
 .vsl-card {

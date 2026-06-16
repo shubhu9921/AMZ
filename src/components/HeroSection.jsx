@@ -14,9 +14,9 @@ const HeroSection = () => {
         </p>
 
         <div className="s1-vsl">
-          <div className="s1-vsl-arrow" style={{ top: '-60px', right: '-80px', transform: 'rotate(0deg)' }}>
-            <div className="s1-vsl-arrow-text" style={{ transform: 'rotate(10deg)', marginBottom: '4px' }}>See It In Action</div>
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" style={{ transform: 'rotate(-20deg)' }}>
+          <div className="s1-vsl-arrow">
+            <div className="s1-vsl-arrow-text">See It In Action</div>
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
               <path d="M18 4 C 18 10, 14 16, 6 18 M 10 18 L 6 18 L 6 14" stroke="#CBE82C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </div>
